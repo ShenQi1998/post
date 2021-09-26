@@ -41,7 +41,7 @@ if __name__=="__main__":
       print('交易结果：成功')
    else:
       print(All)
-      print('交易结果：成功')
+      print('交易结果：失败')
 
    date = time.strftime("%Y%m%d",time.localtime())
    print(SEQ_NO)
